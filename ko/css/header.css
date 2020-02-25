@@ -1,0 +1,125 @@
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1675px;
+}
+.header {
+	background-image: -webkit-linear-gradient(318deg, #ff9600 0%, #efb844 100%);
+	background-image: -o-linear-gradient(318deg, #ff9600 0%, #efb844 100%);
+	background-image: linear-gradient(48deg, #ff9600 0%, #efb844 100%);
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.logo {
+	background-image: url(../img/header-logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	height: 100vh;
+}
+.mouse {
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	transform: translate(-50%, 0);
+}
+.header-nav {
+	position: fixed;
+	top: 20px;
+	right: 15px;
+	width: 40px;
+	height: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	cursor: pointer;
+	z-index: 95;
+}
+.header-nav div {
+	width: 90%;
+	height: 3px;
+	background: #000000;
+}
+.sidebar {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: 50px;
+	z-index: 99;
+}
+.social {
+	cursor: pointer;
+}
+.fa-instagram {
+	margin-bottom: 5px;
+}
+.header-nav__full {
+/*	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;*/
+	display: none;
+	position: fixed;
+	justify-content: flex-start;
+	background: #000000;
+	top: 0;
+	right: 0;
+	width: 50%;
+	z-index: 95;
+	height: 100%;
+}
+.header-nav__full nav {
+	padding-left: 50px;
+	padding-top: 60px;
+}
+.header-nav__full a {
+	letter-spacing: 5.36px;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	position: relative;
+}
+.header-nav__full a:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 3px;
+	background-color: #ff9f05;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	transition: 0.4s;
+}
+.header-nav__full a:hover:after {
+	width: 100%;
+}
+.header-nav__full li {
+	margin-bottom: 30px;
+}
+.close {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	z-index: 100;
+	transition: 0.5s;
+}
+.close:hover {
+	color: #ff9f05;
+}

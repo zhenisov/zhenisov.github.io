@@ -1,0 +1,61 @@
+.about-us {
+	background: #ffffff;
+	width: 100%;
+}
+.title {
+	font-family: a_AvanteTitlerCpsUpC_Bold;
+	font-size: 41px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 32px;
+	letter-spacing: 1.36px;
+	padding: 70px 0;
+}
+.title.dark {
+	color: #000000;
+}
+.title:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 75px;
+	height: 31px;
+	display: inline-block;
+	background-color: #ff9f05;
+}
+.about-us__wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.about-us__wrapper .desc {
+	width: 50%;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: a_AvanteTitlerCpsUpC_Light;
+	font-weight: bold;
+	margin-right: 20px;
+	letter-spacing: 3px;
+	line-height: 39px;
+}
+.about-us__wrapper .desc p {
+	padding-right: 10px;
+}
+.about-us__wrapper .image {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	width: 48%;
+}
+.about-us__wrapper .image img {
+	width: 306px;
+	height: 156px;
+}

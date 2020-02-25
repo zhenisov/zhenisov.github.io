@@ -1,0 +1,60 @@
+.portfolio {
+	background: #ffffff;
+	width: 100%;
+}
+.portfolio__wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.portfolio__item {
+	width: 440px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.portfolio__item img {
+	display: block;
+	width: 100%;
+}
+.button {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 50px 0;
+}
+.btn {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: a_AvanteTitlerCpsUpC_Light;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1.36px;
+	font-size: 19px;
+	width: 234px;
+	height: 36px;
+}
+.btn.black {
+	background: transparent;
+	color: #000000;
+	border: 2px solid #000000;
+}
+.btn.black:hover {
+	background: #efb844;
+	border: 2px solid #efb844;
+}

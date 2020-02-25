@@ -1,0 +1,42 @@
+.services {
+	background: #ffffff;
+	width: 100%;
+}
+.services__wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.services__wrapper .desc {
+	width: 50%;
+	padding-right: 10px;
+}
+.services__wrapper .desc a {
+	text-decoration: none;
+	font-family: a_AvanteTitlerCpsUpC_Light;
+	line-height: 65.83px;
+	letter-spacing: 6.36px;
+	font-weight: bold;
+	font-size: 44px;
+	color: #000000;
+}
+.services__wrapper .desc a:hover {
+	color: #ff9f05;
+}
+.services__wrapper. image {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	width: 48%;
+}
+.services__wrapper. image img {
+	width: 658px;
+	height: 455px;
+}
