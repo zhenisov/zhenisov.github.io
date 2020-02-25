@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Techmir.kz - Ремонт бытовой техники в Нур-Султане</title>
+	<link rel="stylesheet" href="css/all.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body>
+
+	<section class="header">
+		<div class="container header-container">
+			<div class="header__logo">
+				<a href="javascript: void(0)" class="logo"><span>Techmir.kz</span></a>
+			</div>
+			<div class="header__nav">
+				<nav>
+					<ul class="nav">
+						<li><a href="tel:+77071643604" class="nav__link active">+7 707 164 36 04</a></li>
+						<li><a href="#address" class="nav__link">Адреса и время работы</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</section>
+
+	<section class="main">
+		<div class="container main-container">
+			<div class="wrap">
+				<h1>Ремонт бытовой техники <br> в Нур-Султане</h1>
+				<a onclick="request_form()" class="button button__light">Оставить заявку</a>
+			</div>
+		</div>
+		<div class="scrooldown">
+			<img src="img/mouse.png" alt="">
+		</div>
+	</div>
+</section>
+
+<section class="repair">
+	<div class="container">
+		<div class="repair__content">
+
+			<div class="repair__content__item">
+				<a onclick="repairDescription()" class="repair__content__link">
+					<div class="repair-icon">
+						<img src="img/drone.png" alt="icon">
+					</div>
+					<h4>Телевизоры</h4>
+				</a>
+			</div>
+			
+			<div class="repair__content__item">
+				<a onclick="repairDescription()" class="repair__content__link">
+					<div class="repair-icon">
+						<img src="img/notebook.png" alt="icon">
+					</div>
+					<h4>Ноутбуки компьютеры</h4>
+				</a>
+			</div>
+
+			<div class="repair__content__item">
+				<a onclick="repairDescription()" class="repair__content__link">
+					<div class="repair-icon">
+						<img src="img/giroscooter.png" alt="icon">
+					</div>
+					<h4>Гироскутеры</h4>
+				</a>
+			</div>
+
+			<div class="repair__content__item">
+				<a onclick="repairDescription()" class="repair__content__link">
+					<div class="repair-icon">
+						<img src="img/microwave.png" alt="icon">
+					</div>
+					<h4>СВЧ Печь</h4>
+				</a>
+			</div>
+
+			<div class="repair__content__item">
+				<a onclick="repairDescription()" class="repair__content__link">
+					<div class="repair-icon">
+						<img src="img/iron.png" alt="icon">
+					</div>
+					<h4>Утюги отпариватели</h4>
+				</a>
+			</div>
+
+			<div class="repair__content__item">
+				<a onclick="repairDescription()" class="repair__content__link">
+					<div class="repair-icon">
+						<img src="img/vacuum-cleaner.png" alt="icon">
+					</div>
+					<h4>Пылесосы</h4>
+				</a>
+			</div>
+
+			<div class="repair__content__item">
+				<a onclick="repairDescription()" class="repair__content__link">
+					<div class="repair-icon">
+						<img src="img/kettle.png" alt="icon">
+					</div>
+					<h4>Термопоты чайники</h4>
+				</a>
+			</div>
+
+			<div class="repair__content__item">
+				<a onclick="repairDescription()" class="repair__content__link">
+					<div class="repair-icon">
+						<img src="img/meat-grinder.png" alt="icon">
+					</div>
+					<h4>Электро-мясорубоки</h4>
+				</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<section class="address" id="address">
+	<div class="container">
+		<div class="address__content">
+			<p>С 10:00 до 20:00 Женис 75 офис 2 вход с торца красная Крыша<br>С 9:00 до 22:00 Бекитай 9/4</p>
+		</div>
+	</div>
+</section>
+
+<section style="max-width: 1920px; margin: 0 auto;">
+	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6bd3e99493753addff10dec330718ab5870bf186dfface442974028429c6c2c3&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+</section>
+
+<section class="footer">
+	<div class="container">
+		<div class="footer__content">
+			<p>Copyright © 2019 +7 707 164 36 04</p>
+		</div>
+	</div>
+</section>
+
+<section class="repairDescription" id="repairDescription">
+	<div class="repairDescription__wrapper">
+		<div class="repairDescription__head">
+			<div class="repairDescription__title">Titile</div>
+			<div onclick="repairDescription_close()" class="repairDescription__close">X</div>
+		</div>
+		<div class="repairDescription__body">
+			<p>Текст</p>
+		</div>
+	</div>
+</section>
+
+<section class="request-form" id="request-form">
+	<div class="request-form__wrapper">
+		<div class="request-form__head">
+			<div class="request-form__title">Заявка</div>
+			<div onclick="request_form_close()" class="request-form__close">X</div>
+		</div>
+		<div class="request-form__body">
+			<form method="POST" action="mail.php" id="form_zayavka">
+				<input type="text" name="name" placeholder="Имя" required>
+				<input type="tel" name="phone" placeholder="Телефон" required>
+				<a class="request-form__button" onclick="form_submit()">Отправить
+				заявку</a>
+			</form>
+		</div>
+	</div>
+</section>
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
