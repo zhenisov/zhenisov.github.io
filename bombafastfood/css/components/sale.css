@@ -1,0 +1,59 @@
+.sale {
+	background: url('../../img/bg.png') #fff;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	height: 350px;
+}
+.sale-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.happy {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	color: #d00149;
+	padding: 45px;
+}
+.happy::before, .happy::after {
+	content: "";
+	display: inline-block;
+	width: 50%;
+	margin: 0 .5em 0 -55%;
+	vertical-align: middle;
+	border-bottom: 4px solid;
+}
+.happy::after {
+	margin: 0 -55% 0 .5em;
+}
+.happy span {
+    font-size: 24px;
+	font-weight: 900;
+	font-style: italic;
+	color: #d00149;
+	display: inline-block;
+	vertical-align: middle;
+}
+.percent {
+	position: relative;
+}
+.percent span {
+	font-size: 180px;
+	font-weight: 900;
+	font-style: italic;
+	color: #d00149;
+}
+.percent span.under {
+	font-size: 120px;
+}
+.upper {
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.upper span {
+	font-size: 40px;
+}
