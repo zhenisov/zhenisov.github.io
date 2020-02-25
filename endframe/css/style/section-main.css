@@ -1,0 +1,91 @@
+.portfollio {
+    margin-top: 145px;
+}
+.text {
+    display: flex;
+}
+.text1 {
+    padding: 30px;
+    border-top: 1px #eaeaea solid;
+    border-right: 1px solid #eaeaea;
+    width: 347px;
+}
+.text2 {
+    padding: 30px;
+    border-top: 1px #eaeaea solid;
+    border-right: 1px solid #eaeaea;   
+    width: 347px;
+}
+.text3 {
+    padding: 30px;
+    border-top: 1px solid #eaeaea;
+    width: 347px;
+}
+
+h2 {
+    font-size: 18px;
+    color:#000;
+    font-weight: 900;
+    line-height: 1.333;
+}
+p {
+    padding-top: 20px;
+    font-size: 14px;
+    color: #919191;
+    line-height: 1.857;
+    font-weight: 400;
+}
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+}
+.demo {
+    display: flex;
+    justify-content: space-between;
+}
+.demo {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.file {
+    width: 499px;
+    height: 675px;
+}
+h4 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.2;
+}
+.orders {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 190px;
+}
+.order {
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 85px;
+    text-align: center;
+    line-height: 1.2;
+    color: #858585;
+}
+.btn {
+	text-decoration: none;
+	border-radius: 15px;
+	padding: 50px 105px;
+}
+.btn-blue {
+	background-color: #2ebaee;
+	color: #fff;
+	font-size: 36px;
+    font-weight:bold;
+    line-height: 1.2;
+}

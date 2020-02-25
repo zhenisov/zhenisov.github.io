@@ -1,0 +1,27 @@
+.footer {
+    border-top: 1px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+h5 {
+    font-size: 16px;
+    color: #919191;
+}
+.footer-container .nav {
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+}
+.footer-container .nav-link {
+    font-size: 16px;
+    color: #919191;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footer-container .nav-link:hover {
+    border-top: 1px solid #000000;
+    padding-top: 8px;
+}
