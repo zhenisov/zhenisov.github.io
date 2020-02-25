@@ -1,0 +1,42 @@
+.our-work-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232323;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.name {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+.insta {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.insta img {
+  max-width: 100%;
+  width: 700px;
+  height: 466px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px)  {
+  .insta img {
+    width: 900px;
+    height: 466px;
+  }
+}
+
+@media screen and (max-width: 1440px)  {
+  .insta img {
+    width: 644px;
+    height: 409px;
+  }
+}

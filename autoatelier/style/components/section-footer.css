@@ -1,0 +1,20 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #121212;
+}
+.footer-container span {
+  font-size: 14px;
+  color: rgba(139, 139, 139, 0.3);
+  text-transform: uppercase;
+}
+.footer-container a {
+  font-size: 14px;
+  color: rgba(139, 139, 139, 0.3);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+.footer-container a:hover {
+  color: #ffda44;
+}

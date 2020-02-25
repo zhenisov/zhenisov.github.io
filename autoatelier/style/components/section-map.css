@@ -1,0 +1,12 @@
+.container-map {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+.map-container {
+  background-color: #232323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
